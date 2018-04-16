@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class='form-wrapper'>
+        <form class="login" method="POST" action="/login">
+            <h2>Name</h2>
+            <input type="text" name="username" class="username">
+            <h2>Password</h2>
+            <input type="password" name="password" class="password">
+            <div class="submitBtn">
+                <input type="submit" value="Login">
+            </div>
+        </form>
+        <div class="submitBtn">
+            <form action="/signUp" method="POST">
+                <input type="submit" value="Sign Up" name="Submit"/>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

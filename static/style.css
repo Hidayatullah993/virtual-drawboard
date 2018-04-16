@@ -1,0 +1,49 @@
+div.form-wrapper {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 20px;
+    width: 240px;
+}
+
+h2 {
+    font-family: Arial;
+    font-weight: normal;
+}
+
+input[type=text] {
+    width: 200px;
+    padding: 12px 20px;
+    margin: 0px 0;
+    display: inline-block;
+    font-size: 100%;
+}
+
+input[type=password] {
+    width: 200px;
+    padding: 12px 20px;
+    margin: 0px 0;
+    display: inline-block;
+    font-size: 100%;
+}
+
+input[type=submit] {
+    width: 100px;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #F5F5F5;
+    font-size: 100%;
+}
+
+input[type=submit]:hover {
+    background-color: #FFFFFF;
+}
+
+div.submitBtn {
+    text-align: center;
+}
