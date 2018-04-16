@@ -32,3 +32,21 @@ exports.down = function down (knex) {
     t.string('password').notNullable()
   })
 }
+
+// table => {
+//   return 'hello';
+// }
+
+// var _this = this;
+// function (table) {
+//   this = _this;
+//   return 'hello';
+// }
+
+// (table) -> {
+//   return 'hello';
+// }
+
+// function (table) {
+//   return 'hello';
+// }
