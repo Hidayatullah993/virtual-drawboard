@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="whiteboardStyle.css"/>
+
+	<title>Virtual Whiteboard</title>
+</head>
+<body>
+	<canvas class="whiteboard"></canvas>
+	<div class="button-wrapper">
+		<div class="colors">
+			<div class="color black"></div>
+			<div class="color red"></div>
+			<div class="color green"></div>
+			<div class="color blue"></div>
+			<div class="color yellow"></div>
+		</div>
+		<button id="eraser">Eraser</button>
+	</div>
+	<div class="user-button-wrapper">
+		<form class="logout" method="get" action="/logout">
+			<input type="submit" value="Logout">
+		</form>
+		<input type="button" value="Print to PDF" id="btnPrint"/>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.0.272/jspdf.debug.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+	<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+	<script src="main.js"></script>
+</body>
